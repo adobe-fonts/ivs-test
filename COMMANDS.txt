@@ -1,0 +1,23 @@
+# Command lines for building IVS Test
+#
+# Version 2015-04-05
+#
+# The following AFDKO "makeotf" command line builds the OpenType/CFF
+# font (be sure to unzip the "IVSTest_sequences.txt.zip" file prior to
+# executing the command line):
+
+makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf FontMenuNameDB -r -stubCmap4 -ch UniIVSTest-UTF32-H -ci IVSTest_sequences.txt
+
+# On my machine, a late-2014 Apple MacBook Pro, it takes almost three
+# hours to build the font due to the incredible number of UVSes.
+
+# Note that the "-stubCmap4" command-line option was just added to the
+# "makeotf" tool, and will be available in the next release of AFDKO.
+
+# To add the "stub" 'DSIG' table to the OpenType/CFF font, the
+# following AFDKO command lines are used:
+
+sfntedit -a DSIG=DSIG.bin IVSTest.otf
+sfntedit -f IVSTest.otf
+
+# EOF
