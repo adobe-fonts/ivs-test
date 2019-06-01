@@ -3,22 +3,41 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniIVSTest-UTF32-H)
 %%Title: (UniIVSTest-UTF32-H Adobe Identity 0)
-%%Version: 1.000
+%%Version: 1.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2015 Adobe Systems Incorporated
+%%Copyright: Copyright 1990-2019 Adobe.
 %%Copyright:
-%%Copyright: Licensed under the Apache License, Version 2.0 (the
-%%Copyright: "License"); you may not use this file except in
-%%Copyright: compliance with the License. You may obtain a copy of
-%%Copyright: the License at
-%%Copyright: http://www.apache.org/licenses/LICENSE-2.0.html
+%%Copyright: Redistribution and use in source and binary forms, with or
+%%Copyright: without modification, are permitted provided that the
+%%Copyright: following conditions are met:
 %%Copyright:
-%%Copyright: Unless required by applicable law or agreed to in
-%%Copyright: writing, software distributed under the License is
-%%Copyright: distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-%%Copyright: CONDITIONS OF ANY KIND, either express or implied. See
-%%Copyright: the License for the specific language governing
-%%Copyright: permissions and limitations under the License.
+%%Copyright: Redistributions of source code must retain the above
+%%Copyright: copyright notice, this list of conditions and the following
+%%Copyright: disclaimer.
+%%Copyright:
+%%Copyright: Redistributions in binary form must reproduce the above
+%%Copyright: copyright notice, this list of conditions and the following
+%%Copyright: disclaimer in the documentation and/or other materials
+%%Copyright: provided with the distribution. 
+%%Copyright:
+%%Copyright: Neither the name of Adobe nor the names Copyright: of its
+%%Copyright: contributors may be used to endorse or promote products 
+%%Copyright: derived from this software without specific prior written
+%%Copyright: permission.
+%%Copyright:
+%%Copyright: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+%%Copyright: CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+%%Copyright: INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+%%Copyright: MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+%%Copyright: DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+%%Copyright: CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+%%Copyright: SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+%%Copyright: NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+%%Copyright: LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+%%Copyright: HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+%%Copyright: CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+%%Copyright: OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+%%Copyright: SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 %%Copyright: -----------------------------------------------------------
 %%EndComments
 
@@ -35,7 +54,7 @@ begincmap
 end def
 
 /CMapName /UniIVSTest-UTF32-H def
-/CMapVersion 1.000 def
+/CMapVersion 1.001 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -44,18 +63,15 @@ end def
   <00000000> <0010FFFF>
 endcodespacerange
 
-1 beginnotdefrange
-<00000000> <0000001f> 1
-endnotdefrange
-
-4 begincidchar
-<00000020> 1
+3 begincidchar
 <0000fa11> 259
 <0000fa1f> 273
 <0000fa21> 275
 endcidchar
 
 100 begincidrange
+<00003006> <00003007> 248
+<00003021> <00003029> 275
 <00003400> <000034ff> 242
 <00003500> <000035ff> 242
 <00003600> <000036ff> 242
@@ -154,11 +170,11 @@ endcidchar
 <00009300> <000093ff> 242
 <00009400> <000094ff> 242
 <00009500> <000095ff> 242
-<00009600> <000096ff> 242
-<00009700> <000097ff> 242
 endcidrange
 
 100 begincidrange
+<00009600> <000096ff> 242
+<00009700> <000097ff> 242
 <00009800> <000098ff> 242
 <00009900> <000099ff> 242
 <00009a00> <00009aff> 242
@@ -171,6 +187,35 @@ endcidrange
 <0000fa13> <0000fa14> 261
 <0000fa23> <0000fa24> 277
 <0000fa27> <0000fa29> 281
+<00017000> <000170ff> 242
+<00017100> <000171ff> 242
+<00017200> <000172ff> 242
+<00017300> <000173ff> 242
+<00017400> <000174ff> 242
+<00017500> <000175ff> 242
+<00017600> <000176ff> 242
+<00017700> <000177ff> 242
+<00017800> <000178ff> 242
+<00017900> <000179ff> 242
+<00017a00> <00017aff> 242
+<00017b00> <00017bff> 242
+<00017c00> <00017cff> 242
+<00017d00> <00017dff> 242
+<00017e00> <00017eff> 242
+<00017f00> <00017fff> 242
+<00018000> <000180ff> 242
+<00018100> <000181ff> 242
+<00018200> <000182ff> 242
+<00018300> <000183ff> 242
+<00018400> <000184ff> 242
+<00018500> <000185ff> 242
+<00018600> <000186ff> 242
+<00018700> <000187ff> 242
+<00018800> <000188ff> 242
+<00018900> <000189ff> 242
+<00018a00> <00018aff> 242
+<0001b170> <0001b1ff> 354
+<0001b200> <0001b2ff> 242
 <00020000> <000200ff> 242
 <00020100> <000201ff> 242
 <00020200> <000202ff> 242
@@ -228,6 +273,9 @@ endcidrange
 <00023600> <000236ff> 242
 <00023700> <000237ff> 242
 <00023800> <000238ff> 242
+endcidrange
+
+100 begincidrange
 <00023900> <000239ff> 242
 <00023a00> <00023aff> 242
 <00023b00> <00023bff> 242
@@ -259,9 +307,6 @@ endcidrange
 <00025500> <000255ff> 242
 <00025600> <000256ff> 242
 <00025700> <000257ff> 242
-endcidrange
-
-100 begincidrange
 <00025800> <000258ff> 242
 <00025900> <000259ff> 242
 <00025a00> <00025aff> 242
@@ -331,6 +376,9 @@ endcidrange
 <00029a00> <00029aff> 242
 <00029b00> <00029bff> 242
 <00029c00> <00029cff> 242
+endcidrange
+
+100 begincidrange
 <00029d00> <00029dff> 242
 <00029e00> <00029eff> 242
 <00029f00> <00029fff> 242
@@ -362,9 +410,6 @@ endcidrange
 <0002b900> <0002b9ff> 242
 <0002ba00> <0002baff> 242
 <0002bb00> <0002bbff> 242
-endcidrange
-
-60 begincidrange
 <0002bc00> <0002bcff> 242
 <0002bd00> <0002bdff> 242
 <0002be00> <0002beff> 242
@@ -425,6 +470,277 @@ endcidrange
 <0002f500> <0002f5ff> 242
 <0002f600> <0002f6ff> 242
 <0002f700> <0002f7ff> 242
+<0002fa20> <0002faff> 274
+<0002fb00> <0002fbff> 242
+<0002fc00> <0002fcff> 242
+<0002fd00> <0002fdff> 242
+<0002fe00> <0002feff> 242
+<0002ff00> <0002fffd> 242
+<00030000> <000300ff> 242
+<00030100> <000301ff> 242
+<00030200> <000302ff> 242
+endcidrange
+
+100 begincidrange
+<00030300> <000303ff> 242
+<00030400> <000304ff> 242
+<00030500> <000305ff> 242
+<00030600> <000306ff> 242
+<00030700> <000307ff> 242
+<00030800> <000308ff> 242
+<00030900> <000309ff> 242
+<00030a00> <00030aff> 242
+<00030b00> <00030bff> 242
+<00030c00> <00030cff> 242
+<00030d00> <00030dff> 242
+<00030e00> <00030eff> 242
+<00030f00> <00030fff> 242
+<00031000> <000310ff> 242
+<00031100> <000311ff> 242
+<00031200> <000312ff> 242
+<00031300> <000313ff> 242
+<00031400> <000314ff> 242
+<00031500> <000315ff> 242
+<00031600> <000316ff> 242
+<00031700> <000317ff> 242
+<00031800> <000318ff> 242
+<00031900> <000319ff> 242
+<00031a00> <00031aff> 242
+<00031b00> <00031bff> 242
+<00031c00> <00031cff> 242
+<00031d00> <00031dff> 242
+<00031e00> <00031eff> 242
+<00031f00> <00031fff> 242
+<00032000> <000320ff> 242
+<00032100> <000321ff> 242
+<00032200> <000322ff> 242
+<00032300> <000323ff> 242
+<00032400> <000324ff> 242
+<00032500> <000325ff> 242
+<00032600> <000326ff> 242
+<00032700> <000327ff> 242
+<00032800> <000328ff> 242
+<00032900> <000329ff> 242
+<00032a00> <00032aff> 242
+<00032b00> <00032bff> 242
+<00032c00> <00032cff> 242
+<00032d00> <00032dff> 242
+<00032e00> <00032eff> 242
+<00032f00> <00032fff> 242
+<00033000> <000330ff> 242
+<00033100> <000331ff> 242
+<00033200> <000332ff> 242
+<00033300> <000333ff> 242
+<00033400> <000334ff> 242
+<00033500> <000335ff> 242
+<00033600> <000336ff> 242
+<00033700> <000337ff> 242
+<00033800> <000338ff> 242
+<00033900> <000339ff> 242
+<00033a00> <00033aff> 242
+<00033b00> <00033bff> 242
+<00033c00> <00033cff> 242
+<00033d00> <00033dff> 242
+<00033e00> <00033eff> 242
+<00033f00> <00033fff> 242
+<00034000> <000340ff> 242
+<00034100> <000341ff> 242
+<00034200> <000342ff> 242
+<00034300> <000343ff> 242
+<00034400> <000344ff> 242
+<00034500> <000345ff> 242
+<00034600> <000346ff> 242
+<00034700> <000347ff> 242
+<00034800> <000348ff> 242
+<00034900> <000349ff> 242
+<00034a00> <00034aff> 242
+<00034b00> <00034bff> 242
+<00034c00> <00034cff> 242
+<00034d00> <00034dff> 242
+<00034e00> <00034eff> 242
+<00034f00> <00034fff> 242
+<00035000> <000350ff> 242
+<00035100> <000351ff> 242
+<00035200> <000352ff> 242
+<00035300> <000353ff> 242
+<00035400> <000354ff> 242
+<00035500> <000355ff> 242
+<00035600> <000356ff> 242
+<00035700> <000357ff> 242
+<00035800> <000358ff> 242
+<00035900> <000359ff> 242
+<00035a00> <00035aff> 242
+<00035b00> <00035bff> 242
+<00035c00> <00035cff> 242
+<00035d00> <00035dff> 242
+<00035e00> <00035eff> 242
+<00035f00> <00035fff> 242
+<00036000> <000360ff> 242
+<00036100> <000361ff> 242
+<00036200> <000362ff> 242
+<00036300> <000363ff> 242
+<00036400> <000364ff> 242
+<00036500> <000365ff> 242
+<00036600> <000366ff> 242
+endcidrange
+
+100 begincidrange
+<00036700> <000367ff> 242
+<00036800> <000368ff> 242
+<00036900> <000369ff> 242
+<00036a00> <00036aff> 242
+<00036b00> <00036bff> 242
+<00036c00> <00036cff> 242
+<00036d00> <00036dff> 242
+<00036e00> <00036eff> 242
+<00036f00> <00036fff> 242
+<00037000> <000370ff> 242
+<00037100> <000371ff> 242
+<00037200> <000372ff> 242
+<00037300> <000373ff> 242
+<00037400> <000374ff> 242
+<00037500> <000375ff> 242
+<00037600> <000376ff> 242
+<00037700> <000377ff> 242
+<00037800> <000378ff> 242
+<00037900> <000379ff> 242
+<00037a00> <00037aff> 242
+<00037b00> <00037bff> 242
+<00037c00> <00037cff> 242
+<00037d00> <00037dff> 242
+<00037e00> <00037eff> 242
+<00037f00> <00037fff> 242
+<00038000> <000380ff> 242
+<00038100> <000381ff> 242
+<00038200> <000382ff> 242
+<00038300> <000383ff> 242
+<00038400> <000384ff> 242
+<00038500> <000385ff> 242
+<00038600> <000386ff> 242
+<00038700> <000387ff> 242
+<00038800> <000388ff> 242
+<00038900> <000389ff> 242
+<00038a00> <00038aff> 242
+<00038b00> <00038bff> 242
+<00038c00> <00038cff> 242
+<00038d00> <00038dff> 242
+<00038e00> <00038eff> 242
+<00038f00> <00038fff> 242
+<00039000> <000390ff> 242
+<00039100> <000391ff> 242
+<00039200> <000392ff> 242
+<00039300> <000393ff> 242
+<00039400> <000394ff> 242
+<00039500> <000395ff> 242
+<00039600> <000396ff> 242
+<00039700> <000397ff> 242
+<00039800> <000398ff> 242
+<00039900> <000399ff> 242
+<00039a00> <00039aff> 242
+<00039b00> <00039bff> 242
+<00039c00> <00039cff> 242
+<00039d00> <00039dff> 242
+<00039e00> <00039eff> 242
+<00039f00> <00039fff> 242
+<0003a000> <0003a0ff> 242
+<0003a100> <0003a1ff> 242
+<0003a200> <0003a2ff> 242
+<0003a300> <0003a3ff> 242
+<0003a400> <0003a4ff> 242
+<0003a500> <0003a5ff> 242
+<0003a600> <0003a6ff> 242
+<0003a700> <0003a7ff> 242
+<0003a800> <0003a8ff> 242
+<0003a900> <0003a9ff> 242
+<0003aa00> <0003aaff> 242
+<0003ab00> <0003abff> 242
+<0003ac00> <0003acff> 242
+<0003ad00> <0003adff> 242
+<0003ae00> <0003aeff> 242
+<0003af00> <0003afff> 242
+<0003b000> <0003b0ff> 242
+<0003b100> <0003b1ff> 242
+<0003b200> <0003b2ff> 242
+<0003b300> <0003b3ff> 242
+<0003b400> <0003b4ff> 242
+<0003b500> <0003b5ff> 242
+<0003b600> <0003b6ff> 242
+<0003b700> <0003b7ff> 242
+<0003b800> <0003b8ff> 242
+<0003b900> <0003b9ff> 242
+<0003ba00> <0003baff> 242
+<0003bb00> <0003bbff> 242
+<0003bc00> <0003bcff> 242
+<0003bd00> <0003bdff> 242
+<0003be00> <0003beff> 242
+<0003bf00> <0003bfff> 242
+<0003c000> <0003c0ff> 242
+<0003c100> <0003c1ff> 242
+<0003c200> <0003c2ff> 242
+<0003c300> <0003c3ff> 242
+<0003c400> <0003c4ff> 242
+<0003c500> <0003c5ff> 242
+<0003c600> <0003c6ff> 242
+<0003c700> <0003c7ff> 242
+<0003c800> <0003c8ff> 242
+<0003c900> <0003c9ff> 242
+<0003ca00> <0003caff> 242
+endcidrange
+
+53 begincidrange
+<0003cb00> <0003cbff> 242
+<0003cc00> <0003ccff> 242
+<0003cd00> <0003cdff> 242
+<0003ce00> <0003ceff> 242
+<0003cf00> <0003cfff> 242
+<0003d000> <0003d0ff> 242
+<0003d100> <0003d1ff> 242
+<0003d200> <0003d2ff> 242
+<0003d300> <0003d3ff> 242
+<0003d400> <0003d4ff> 242
+<0003d500> <0003d5ff> 242
+<0003d600> <0003d6ff> 242
+<0003d700> <0003d7ff> 242
+<0003d800> <0003d8ff> 242
+<0003d900> <0003d9ff> 242
+<0003da00> <0003daff> 242
+<0003db00> <0003dbff> 242
+<0003dc00> <0003dcff> 242
+<0003dd00> <0003ddff> 242
+<0003de00> <0003deff> 242
+<0003df00> <0003dfff> 242
+<0003e000> <0003e0ff> 242
+<0003e100> <0003e1ff> 242
+<0003e200> <0003e2ff> 242
+<0003e300> <0003e3ff> 242
+<0003e400> <0003e4ff> 242
+<0003e500> <0003e5ff> 242
+<0003e600> <0003e6ff> 242
+<0003e700> <0003e7ff> 242
+<0003e800> <0003e8ff> 242
+<0003e900> <0003e9ff> 242
+<0003ea00> <0003eaff> 242
+<0003eb00> <0003ebff> 242
+<0003ec00> <0003ecff> 242
+<0003ed00> <0003edff> 242
+<0003ee00> <0003eeff> 242
+<0003ef00> <0003efff> 242
+<0003f000> <0003f0ff> 242
+<0003f100> <0003f1ff> 242
+<0003f200> <0003f2ff> 242
+<0003f300> <0003f3ff> 242
+<0003f400> <0003f4ff> 242
+<0003f500> <0003f5ff> 242
+<0003f600> <0003f6ff> 242
+<0003f700> <0003f7ff> 242
+<0003f800> <0003f8ff> 242
+<0003f900> <0003f9ff> 242
+<0003fa00> <0003faff> 242
+<0003fb00> <0003fbff> 242
+<0003fc00> <0003fcff> 242
+<0003fd00> <0003fdff> 242
+<0003fe00> <0003feff> 242
+<0003ff00> <0003fffd> 242
 endcidrange
 
 endcmap
