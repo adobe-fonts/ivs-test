@@ -6,17 +6,13 @@ This font supports all current and future CJK Unified Ideographs by covering ent
 
 A total of 91,052 CJK Unified Ideograph code points are supported, and for each one, a total of 240 IVSes are specified. This means that the total number of IVSes that are defined in the Format 14 'cmap' subtable, as non-default UVSes (*Unicode Variation Sequences*), is a mind-boggling 21,852,480.
 
-## Font installation instructions
-
-* [macOS](https://support.apple.com/en-us/HT201749)
-* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
-* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+:warning: **WARNING:** While using the Firefox app on Windows, if you experience a freeze, which lasts several minutes but eventually resumes, it is likely due to having this particular font installed and that app's need to read its 'cmap' table. The 'cmap' table, at over 100MB due to the nearly 22 million UVSes specified in the Format 14 subtable, literally represents 99.99% of the footprint of the OpenType/CFF font. :warning:
 
 ## Building the font from source
 
 ### Requirements
 
-To build the binary font file from source, you need to have installed the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO tools are widely used for font development today, and are part of most font editor applications.
+To build the binary font file from source, you need to have installed the [Adobe Font Development Kit for OpenType](https://github.com/adobe-type-tools/afdko/) (AFDKO). The AFDKO tools are widely used for font development today, and are part of most font editor applications.
 
 ### Building the font
 
